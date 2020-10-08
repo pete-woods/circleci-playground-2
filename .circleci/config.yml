@@ -11,3 +11,4 @@ jobs:
     resource_class: pete-woods/test
     steps:
       - run: echo hello runner
+      - run: pwd
