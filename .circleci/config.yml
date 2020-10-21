@@ -12,4 +12,3 @@ jobs:
     steps:
       - run: echo hello runner
       - run: pwd
-      - run: sleep 30
