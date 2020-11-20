@@ -12,7 +12,6 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - '61:88:0e:3f:12:3b:04:c6:e8:a9:33:0f:a7:dd:5e:89'
-            - 'de:b7:da:dc:0e:38:cf:08:89:c1:42:f7:f2:20:98:98'
+            - 'f8:43:c1:db:6f:04:b4:fc:58:38:20:f0:89:e5:5e:9b'
       - run: ls -lR ~/.ssh
       - run: cat ~/.ssh/config
